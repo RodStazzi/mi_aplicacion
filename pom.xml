@@ -8,6 +8,20 @@
   <name>mi-aplicacion</name>
   <url>http://maven.apache.org</url>
   
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.10.1</version> <!-- Asegúrate de usar una versión reciente del plugin -->
+            <configuration>
+                <source>1.8</source> <!-- O la versión de Java que desees usar -->
+                <target>1.8</target> <!-- O la versión de Java que desees usar -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+  
   <dependencies>
     <!-- <dependency>
       <groupId>junit</groupId>
@@ -17,14 +31,14 @@
     </dependency> -->
 <dependency>
     <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-engine</artifactId>
-    <version>5.9.3</version>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.8.2</version>
     <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-api</artifactId>
-    <version>5.9.3</version>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.8.2</version>
     <scope>test</scope>
 </dependency>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
