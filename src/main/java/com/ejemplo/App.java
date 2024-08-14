@@ -27,7 +27,7 @@ public class App
         
         for (int i = 0; i < numeros.size(); i++) {
         	System.out.println("Número a operar "+numeros.get(i));
-            System.out.println("El cuadrado de " + num + " es: " + square.apply(numeros.get(i))+" y su cubo es: " + squareCube.apply(numeros.get(i)));
+            System.out.println("El cuadrado de " + numeros.get(i) + " es: " + square.apply(numeros.get(i))+" y su cubo es: " + squareCube.apply(numeros.get(i)));
             System.out.println("___________________________________________");
         	
 		}
