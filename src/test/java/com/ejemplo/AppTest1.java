@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
-public class AppTest {
+public class AppTest1 {
 
     @Test
     public void testSquareFunction() {

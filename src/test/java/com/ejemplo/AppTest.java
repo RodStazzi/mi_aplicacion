@@ -5,8 +5,8 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectClasses({
-    AppTest.class,
+    AppTest1.class,
     AppTest2.class
 })
-public class AppTestAll {
+public class AppTest {
 }
